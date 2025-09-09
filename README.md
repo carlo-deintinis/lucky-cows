@@ -18,3 +18,9 @@ This will cause cowsay to pull cows from two folders:
 - `/usr/share/cowsay/cows/` is (usually) the default folder which is used by
   cowsay. To check which is the actual folder on your system, run `cowsay -l`.
 
+## Initialize fortunes dat files
+
+Many versions of `fortune` and `fortune-mod` require `.dat` files to quickly
+search the fortunes. These are binary files which are not versioned in this
+repo. Run the script `make_fortunes_dat.sh` (at your own risk!) to generate the
+`.dat` files.
